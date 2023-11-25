@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ceros valos</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}"/>
+</head>
+<body>
+    <div class="wrapper">
+        {% comment %} <img class="gif" alt="gif" src="https://media.giphy.com/media/FTGah7Mx3ss04PcasF/giphy.gif"/> {% endcomment %}
+        <h2 class="question">benimle valo oynican mi?</h2>
+        <div class="btn-group">
+            <button class="yes-btn" id="yes">evet</button>
+            <button class="no-btn">yk</button>
+        </div>
+    </div>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
